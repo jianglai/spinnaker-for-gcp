@@ -24,7 +24,7 @@ pkill -f '/opt/halyard/lib/halyard-web' || true
 pkill -f "$HOME/hal/halyard/lib/halyard-web" || true
 
 curl -O https://raw.githubusercontent.com/spinnaker/halyard/master/install/debian/InstallHalyard.sh
-sudo bash InstallHalyard.sh --user $USER -y $@
+sudo bash InstallHalyard.sh -y $@
 
 retVal=$?
 if [ $retVal == 13 ]; then

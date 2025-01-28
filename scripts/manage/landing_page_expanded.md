@@ -6,8 +6,8 @@ Use this section to manage your Spinnaker deployment going forward.
 
 Select the project in which your Spinnaker is installed, then click **Start**.
 
-<walkthrough-project-billing-setup>
-</walkthrough-project-billing-setup>
+<walkthrough-project-setup>
+</walkthrough-project-setup>
 
 ## Manage Spinnaker via Halyard from Cloud Shell
 

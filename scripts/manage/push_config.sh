@@ -166,7 +166,7 @@ kubectl create secret generic spinnaker-deployment -n halyard \
 
 git add .
 git commit -m 'Automated backup.'
-git push
+git push -o nokeycheck
 
 popd
 rm -rf $TEMP_DIR
