@@ -21,8 +21,10 @@ You can skip this step if you are the original installer/operator, as they will 
 
 ### Ensure you are connected to the correct Kubernetes context
 
+
+
 ```bash
-PROJECT_ID={{project-id}} ~/cloudshell_open/spinnaker-for-gcp/scripts/manage/check_cluster_config.sh
+PROJECT_ID=<walkthrough-project-id/> ~/cloudshell_open/spinnaker-for-gcp/scripts/manage/check_cluster_config.sh
 ```
 
 ### Pull Spinnaker config
